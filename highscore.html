@@ -11,27 +11,27 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-score">
         <h1 id="finalScore">HighScores</h1>
         <ul id="highScoreList"></ul>
-        <a href="index.html" class="btn">Back Home</a>
-        <a href="#" class="btn">Clear HighScores</a>
-        <a href="#" id="btn-score" class="flex-center flex-column">say yes</a>
+        <a href="index.html" class="btn-high-score">Back Home</a>
+        <!-- <a href="#" class="btn">Clear HighScores</a> -->
+        <a href="#" id="btn-score" class="btn-high-score">Say yes</a>
     </div>
     <div>
-        <p>Your Score: <span id="scoreDisplay"></span></p>
+        <p class="score">Your Score: <span id="scoreDisplay"></span></p>
     </div>
     <!-- Make an input and a button so users can save their high score -->
+    <div>
+        <input type="email" placeholder="inicial" id='name'>
+        <a href="#" id="save-btn" class="btn-save-score">Save your score</a>
+    </div>
 
-    <input type="email" placeholder="inicial" id='name'>
-    <a href="#" id="save-btn" class="flex-center flex-column">Save your score</a>
-
-
-    <div class="flex-center flex-column">
+    <!-- <div class="flex-center flex-column">
         <ul id="highScore">
 
         </ul>
-    </div>
+    </div> -->
 
     <script src="./highscore.js"></script>
 </body>

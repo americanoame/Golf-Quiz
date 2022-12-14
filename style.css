@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background-color: rgb(185, 185, 65);;
+    background-color: rgb(27, 134, 10);;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.75rem;
     
@@ -39,15 +39,16 @@ body {
     margin-top: 0;
     margin-bottom: 1.7rem;
 
-
 }
 
-
-
 h1 {
-    color: rgb(25, 145, 77);
+    color: #fff;
     font-size: 10rem;
     margin-bottom: 1rem; 
+}
+
+.golfer {
+    font-size:  12rem;
 }
 
 h2 {
@@ -79,19 +80,23 @@ h2 {
 
 .btn {
     padding: 2rem 0;
-    font-size: 2.7rem;
+    font-size: 3rem;
     width: 30rem;
     text-align: center;
     text-decoration: none;
-    color: rgb(219, 143, 143);
+    color: #fff;
     border-radius: 4px;
-    background-color: #fff;
+    /* background: rgb(147, 219, 143); */
     margin-bottom: 1rem;
+    z-index: 5;
+
+    border: 1px solid #fff;
 
 }
 
 .btn:hover {
-
+  background: rgb(182, 214, 172);
+  transition: 0.4s ease-in-out;
 }
 
 .btn[disabled]:hover {
@@ -106,25 +111,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     max-width: 30rem;
-}
-
-input {
-    margin-bottom: 1rem;
-    width: 70%;
-    padding: 1rem 2rem;
-    border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgb(86, 185, 235, 0.5);
-
-}
-
-input::placeholder {
-    color: rgb(45, 40, 41);
-}
-
-#username {
-    margin-bottom: 3rem;
-    width: 100%;
-    outline: none;
 }
 
 .btn:hover {
