@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+:root {
+    --black: #33393f;
+    --dark-black: #131414;
+    --yellow: yellow;
+    --white: #fff;
+    --royalblue: royalblue;
+    --dark-gray: #6b7a89;
+    --light-green: rgb(185, 185, 65);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(185, 185, 65);;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.75rem;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    /* padding: 5rem; */
+}
+
+.try-to-answer {
+    text-align: center;
+    color: aqua;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1.7rem;
+
+
+}
+
+
+
+h1 {
+    color: rgb(25, 145, 77);
+    font-size: 10rem;
+    margin-bottom: 1rem; 
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justy-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    padding: 2rem 0;
+    font-size: 2.7rem;
+    width: 30rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(219, 143, 143);
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+
+}
+
+.btn:hover {
+
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 70%;
+    padding: 1rem 2rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgb(86, 185, 235, 0.5);
+
+}
+
+input::placeholder {
+    color: rgb(45, 40, 41);
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+.btn:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5);
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .h1 {
+        min-width: 40rem
+    }
+
+    h1 {
+        font-size: 6.5rem;
+    }
+
+}
+
+
+
+
+
+
+

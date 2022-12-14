@@ -1,0 +1,70 @@
+body {
+    /* color: #fff */
+    
+    background-color: royalblue    
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix-text {
+    text-align: center;
+    font-size: 3rem;
+    color:  #fff;
+}
+
+.hud-main-text {
+    text-align: center;
+    color: aqua;
+    font-size: 3rem;
+    
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4;
+    background: rgb(225, 225, 105);
+    font-size: 2rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+   cursor: pointer;
+   box-shadow: 0 0.4rem 1.4rem 0 rgb(6, 103, 0.5);
+   transform: scale(1.02);
+   transform: transform 100ms;
+
+}
+
+.choice-prefix  {
+    padding:  1rem 1.8rem;
+    color: green;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .choice-container {
+        min-width: 40rem
+    }
+
+    .choice-container {
+        min-width: 35rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+   

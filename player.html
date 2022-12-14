@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="player.css">
+    <title>Golfer Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progress" class="hud-prefix-text">
+                        View hightscore
+                    </p>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix-text">Time:</p>
+                    <p class="hud-main-text" id="timer-count">10</p>
+                </div>
+            </div>
+            <div id="question">just to see</div>
+            <div id="choicesArea">
+                <!-- Give an Id  -->
+                <div class="choice-container">
+                    <div class="choice-prefix" id="choiceA">A</div>
+                    <p class="choice-prefix" data-number="1"></p>
+                </div>
+                <!-- <div id="question"></div> -->
+                <div class="choice-container" id="choiceBContainer">
+                    <div class="choice-prefix" id="choiceB">B</div>
+                    <p class="choice-prefix" data-number="2"></p>
+                </div>
+                <!-- <div id="question"></div> -->
+                <div class="choice-container">
+                    <div class="choice-prefix" id="choiceC">C</div>
+                    <p class="choice-prefix" data-number="3"></p>
+                </div>
+                <!-- <div id="question"></div> -->
+                <div class="choice-container">
+                    <div class="choice-prefix" id="choiceD">D</div>
+                    <p class="choice-prefix" data-number="4"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="player.js"></script>
+</body>
+
+</html>
