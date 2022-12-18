@@ -2,10 +2,6 @@ var questionDiv = document.querySelector("#question");
 var choices = document.querySelectorAll(".choice-prefix");
 var scoreText = document.querySelector("#timer-count");
 
-// var scoreCounter = 0;
-// var timer;
-// var timerCount;
-// var isTimer = false;
 var secondsLeft = 30;
 var timerInterval;
 
@@ -18,66 +14,110 @@ var choiceD = document.getElementById('choiceD');
 var choicesArea = document.getElementById('choicesArea');
 
 var question = [
+
     {
-        question: "pick four",
+        question: "who won the Master in april 1972?",
         choice1: {
-            choice: "1",
+            choice: "Arnold Palmer",
             correct: "false"
         },
         choice2: {
+            choice: 'Tiger Woods',
+            correct: "false"
+        },
+        choice3: {
+            choice: "Sam Snead",
+            correct: "false"
+        },
+        choice4: {
+            choice: "Jack Nicklaus",
+            correct: "true"
+        },
+    },
+    {
+        question: "Which years was The world's oldest golf tournament in existence?",
+        choice1: {
+            choice: "1698",
+            correct: "false"
+        },
+        choice2: {
+            choice: "1730",
+            correct: "false"
+        },
+        choice3: {
+            choice: "1860",
+            correct: "true"
+        },
+        choice4: {
+            choice: "1223",
+            correct: "false"
+        },
+    },
+    {
+        question: "Us open Winner on 2012",
+        choice1: {
+            choice: "Webb Simpson",
+            correct: "true"
+        },
+        choice2: {
+            choice: "Jim Furyk",
+            correct: "false"
+        },
+        choice3: {
+            choice: "Davi Tomms",
+            correct: "false"
+        },
+        choice4: {
+            choice: "Ernie Els",
+            correct: "false"
+        },
+        
+    },
+    {
+        question: "How Many Amount of Tournament Are Required For PGA Player in a Season? ",
+        choice1: {
+            choice: "15",
+            correct: "true"
+        },
+        choice2: {
+            choice: "10",
+            correct: "false"
+        },
+        choice3: {
             choice: "2",
             correct: "false"
         },
-        choice3: {
-            choice: "3",
-            correct: "false"
-        },
         choice4: {
-            choice: "4",
-            correct: "true"
-        },
-    },
-    {
-        question: "Pick number 44.",
-        choice1: {
-            choice: "22",
+            choice: "none of the above",
             correct: "false"
         },
-        choice2: {
-            choice: "33",
-            correct: "false"
-        },
-        choice3: {
-            choice: "44",
-            correct: "true"
-        },
-        choice4: {
-            choice: "55",
-            correct: "false"
-        },
-    },
-    {
-        question: "pick yes",
-        choice1: {
-            choice: "yes",
-            correct: "false"
-        },
-        choice2: {
-            choice: "no",
-            correct: "true"
-        },
-        choice3: {
-            choice: "green",
-            correct: "false"
-        },
-        choice4: {
-            choice: "yellow",
-            correct: "false"
-        },
+        
+
     },
 
+    {
+        question: "How Many Golf Clubs Are Allowed in a Golf Bag?",
+        choice1: {
+            choice: "21",
+            correct: "false"
+        },
+        choice2: {
+            choice: "14",
+            correct: "true"
+        },
+        choice3: {
+            choice: "17",
+            correct: "false"
+        },
+        choice4: {
+            choice: "13",
+            correct: "false"
+        },
+        
+
+    },
 ];
-
+// i made a varible  called questionIdex
 var questionIndex = 0;
 // questionIndex we use to change our current slot in the question array
 // if questionIndex is 1 then it would = question[1]
@@ -121,23 +161,29 @@ function setTimer() {
     }, 1000)
 }
 
-
-
-
-
-
 choicesArea.addEventListener('click', function (event) {
 
     if (event.target.getAttribute('correct') === "true") {
         questionIndex++;
-        if (questionIndex == 3) {
+        if (questionIndex == 5) {
             clearInterval(timerInterval);
             localStorage.setItem('score', secondsLeft);
             window.location.href = "highscore.html";
         }
         displayQuestion();
+    } else {
+        // When the answer isn't correct, subtract 3 seconds
+        secondsLeft -= 3;
+        // Remove the display-none class so it displays
+        document.getElementById('checkAnswer').classList.remove('display-none');
+        // after 2 seconds, it will hide the checkAnswer id div
+        const hideIncorrect = setTimeout(hideAnswer, 2000)
     }
 })
+
+function hideAnswer() {
+    document.getElementById('checkAnswer').classList.add('display-none')
+}
 
 displayQuestion();
 setTimer();

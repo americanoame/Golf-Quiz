@@ -12,39 +12,35 @@
 
 <body>
     <div class="container">
-        <div id="game" class="justify-center flex-column">
-            <div id="hud">
-                <div class="hud-item">
-                    <p id="progress" class="hud-prefix-text">
+        <div class="justify-center flex-column">
+            <div class="golf">
+                <div>
+                    <p class="golf-text">
                         View hightscore
                     </p>
                 </div>
-                <div class="hud-item">
-                    <p class="hud-prefix-text">Time:</p>
-                    <p class="hud-main-text" id="timer-count">10</p>
+                <div>
+                    <p class="golf-text">Time:</p>
+                    <p class="golf-main-text" id="timer-count">30</p>
                 </div>
             </div>
-            <div id="question">just to see</div>
+            <div id="question"></div>
             <div id="choicesArea">
-                <!-- Give an Id  -->
+
                 <div class="choice-container">
                     <div class="choice-prefix" id="choiceA">A</div>
-                    <p class="choice-prefix" data-number="1"></p>
                 </div>
-                <!-- <div id="question"></div> -->
                 <div class="choice-container" id="choiceBContainer">
                     <div class="choice-prefix" id="choiceB">B</div>
-                    <p class="choice-prefix" data-number="2"></p>
                 </div>
-                <!-- <div id="question"></div> -->
                 <div class="choice-container">
                     <div class="choice-prefix" id="choiceC">C</div>
-                    <p class="choice-prefix" data-number="3"></p>
                 </div>
-                <!-- <div id="question"></div> -->
                 <div class="choice-container">
                     <div class="choice-prefix" id="choiceD">D</div>
-                    <p class="choice-prefix" data-number="4"></p>
+                </div>
+                <div class="choice-container display-none" id="checkAnswer">
+                    <button class="incorrect">Incorrect!</button>
                 </div>
             </div>
         </div>

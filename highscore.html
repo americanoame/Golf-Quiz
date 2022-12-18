@@ -12,26 +12,26 @@
 
 <body>
     <div class="container-score">
-        <h1 id="finalScore">HighScores</h1>
+        <h1>HighScores</h1>
         <ul id="highScoreList"></ul>
         <a href="index.html" class="btn-high-score">Back Home</a>
-        <!-- <a href="#" class="btn">Clear HighScores</a> -->
-        <a href="#" id="btn-score" class="btn-high-score">Say yes</a>
     </div>
-    <div>
+    <div class="display-score">
         <p class="score">Your Score: <span id="scoreDisplay"></span></p>
+        <p class="congrat"><span class="big-C">C</span>ongratulations!
+            <span class='trophy'>🏆</span>
+        </p>
     </div>
     <!-- Make an input and a button so users can save their high score -->
-    <div>
+    <div class="input-button">
         <input type="email" placeholder="inicial" id='name'>
-        <a href="#" id="save-btn" class="btn-save-score">Save your score</a>
+        <button id="save-btn">Save your score</button>
     </div>
-
-    <!-- <div class="flex-center flex-column">
-        <ul id="highScore">
-
-        </ul>
-    </div> -->
+    <div class="save-name-score">
+        <!-- This is where the name and score with display -->
+        <p id="saved-name"></p>
+        <p id="saved-score"></p>
+    </div>
 
     <script src="./highscore.js"></script>
 </body>

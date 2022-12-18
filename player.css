@@ -1,25 +1,31 @@
 body {
-    /* color: #fff */
-    
-    background-color: royalblue    
+    background-color: var(--royalblue);
 }
 
-#hud {
+.golf {
     display: flex;
     justify-content: space-between;
 }
 
-.hud-prefix-text {
+.golf-text {
     text-align: center;
     font-size: 3rem;
-    color:  #fff;
+    color: var(--white);
 }
 
-.hud-main-text {
+.golf-main-text {
     text-align: center;
-    color: aqua;
+    color: var(--aqua);
     font-size: 3rem;
-    
+
+}
+
+#question {
+    color: var(--white);
+    font-size: 3.1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
 }
 
 .choice-container {
@@ -27,25 +33,38 @@ body {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4;
-    background: rgb(225, 225, 105);
+    background: var(--rgb-green);
     font-size: 2rem;
     min-width: 80rem;
 }
 
 .choice-container:hover {
-   cursor: pointer;
-   box-shadow: 0 0.4rem 1.4rem 0 rgb(6, 103, 0.5);
-   transform: scale(1.02);
-   transform: transform 100ms;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(6, 103, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
 
 }
 
-.choice-prefix  {
-    padding:  1rem 1.8rem;
-    color: green;
+.choice-prefix {
+    padding: 1rem 1.8rem;
+    color: var(--dark-green);
+    width: 100%;
 }
 
+.display-none {
+    display: none;
+    
+}
 
+.incorrect {
+    margin-left: 2rem;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: red;
+    padding: 4rem;
+
+}
 
 @media screen and (max-width: 850px) {
     .choice-container {
@@ -56,15 +75,3 @@ body {
         min-width: 35rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-   

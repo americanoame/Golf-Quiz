@@ -1,91 +1,139 @@
-body {
-    margin: 0;
-}
-
 .container-score {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25rem;
-}
-
-#finalScore {
-    font-size: 6rem;
-    margin: 0;
-    margin-bottom: 2rem;
-}
-
-.high-score {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
 }
 
 .btn-high-score {
     display: inline-block;
-    border: 1px solid #fff;
-    margin-left: 1rem;
-    padding: 1rem 2rem;
+    position: absolute;
     text-decoration: none;
-    text-align: center;
-    width: 30rem;
+    border: 1px solid;
+    padding: 2rem 3rem;
+    font-size: 2.5rem;
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 5;
+    right: 5rem;
+    top: 5rem;
 }
 
 .btn-high-score:hover {
-    background: rgb(182, 214, 172);
-    transition: 0.4s ease-in-out;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0.4rem 1.4rem 0 var(--rgba-yellow);
+    color: var(--rgba-yellow);
+}
+
+.display-score {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .score {
-    position: absolute;
     font-size: 4rem;
-    color: #fff;
-    top: 10rem;
-    left: 55rem;
+    color: var(--white);
+    margin: 0;
+
+}
+
+.big-C {
+    font-size: 2.5rem;
+}
+
+.congrat {
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    /* color: var(--rgba-yellow); */
+    color: chartreuse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.trophy {
+    font-size: 10rem;
+
+}
+
+.input-button {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 input {
-    margin-top: rem;
+
     display: flex;
-    margin: 0 auto;
-    width: 40%;
-    padding: 1rem 2rem;
+    width: 30%;
+    padding: 1.1rem 2rem;
     border: none;
     box-shadow: 0 0.1rem 1.4rem 0 rgb(86, 185, 235, 0.5);
 
 }
 
-input::placeholder {
-    color: rgb(45, 40, 41);
+button {
+    padding: 2rem 1.3rem;
+    font-size: 1.9rem;
+    margin-left: 1rem;
+    background: var(--rgba-yellow);
+    color: var(--white);
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    z-index: 999;
+
+
 }
 
-#username {
-    margin-bottom: 3rem;
-    width: 100%;
-    outline: none;
+
+button:hover {
+    background: rgba(110, 110, 13, 0.5);
+    --white: #fff;
+    ;
+    transition: 2s ease-in-out;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+
 }
 
-.btn-save-score {
-    display: inline-block;
+.save-name-score {
+    margin: 0 auto;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0 0 56rem;
-    padding: 2rem 0;
-    font-size: 3rem;
-    width: 30rem;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    z-index: 5;
-    border: 1px solid #fff;
+    font-size: 5rem;
+    color: var(--white);
+    margin-top: 1rem;
+
 
 }
 
-.btn-save-score:hover {
-    background: rgb(182, 214, 172);
-    transition: 0.4s ease-in-out;
+@media screen and (max-width: 500px) {
+    .container-score {
+        min-width: 35rem
+    }
+
+    .btn-high-score {
+        
+        margin-right: 4rem;
+        margin-right: 4rem;
+          
+    }
+
+    .score  {
+        padding-left: 5rem;
+    }
+
+    button {
+     padding: .5rem .5rem;
+     font-size: 1.5rem;
+    }
 }
