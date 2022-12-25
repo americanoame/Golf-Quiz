@@ -18,10 +18,14 @@
 
 ###### To run this application, download the GitHub zip file or clone the repository. 
 
-###### You can also play the game by clicking this link *separate paragraph*: 
+###### You can also play the game by clicking this link: 
 
 ## tools used in this game:
 
 ###### HTML5, CSS AND JAVASCRIPT
 
 ## Resources
+
+#### https://www.w3schools.com/
+
+![ ](img/main-photo.png
