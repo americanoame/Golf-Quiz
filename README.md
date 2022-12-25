@@ -27,3 +27,5 @@
 ## Resources
 
 #### https://www.w3schools.com/
+
+![](images/main-photo.png
