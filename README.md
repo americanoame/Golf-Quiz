@@ -12,7 +12,6 @@
 * [Installation](#Installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contribution](#contribution)
 * [Tests](#tests)
 * [Contact](#contact)
 
@@ -21,8 +20,6 @@
 ## Tools used in this game
 
 ###### HTML5 CSS JAVASCRIPT
- 
-#### N/A
  
 ## ⚖️ License
   
