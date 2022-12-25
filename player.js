@@ -1,7 +1,9 @@
+// declaring varibles 
 var questionDiv = document.querySelector("#question");
 var choices = document.querySelectorAll(".choice-prefix");
 var scoreText = document.querySelector("#timer-count");
 
+// Global Varibles
 var secondsLeft = 30;
 var timerInterval;
 
@@ -90,11 +92,8 @@ var question = [
         choice4: {
             choice: "none of the above",
             correct: "false"
-        },
-        
-
+        },   
     },
-
     {
         question: "How Many Golf Clubs Are Allowed in a Golf Bag?",
         choice1: {
@@ -112,9 +111,7 @@ var question = [
         choice4: {
             choice: "13",
             correct: "false"
-        },
-        
-
+        },   
     },
 ];
 // i made a varible  called questionIdex
@@ -126,7 +123,7 @@ var questionIndex = 0;
 function displayQuestion() {
     console.log(questionIndex);
     questionDiv.textContent = question[questionIndex].question;
-    // In this function we use our questionIndex so we don't have to make multiple functions per
+    // In this function we use our questionIndex so we don't have to make multiple functions par
     // We can use this one dynamic function to display our entire quiz
     // We use our questionIndex, which changes when we move to the next question
 
@@ -142,8 +139,8 @@ function displayQuestion() {
     choiceD.setAttribute('correct', question[questionIndex].choice4.correct);
     // We create an attribute to detect which question is the right one
 };
-// Put a function for your timer
-// focus on function for the timer
+
+// function for countdown
 function setTimer() {
     timerInterval = setInterval(function () {
         secondsLeft--;

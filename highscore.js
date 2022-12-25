@@ -24,8 +24,6 @@ function saveScore() {
 }
 // then i made another fuction to render 
 function renderScore() {
-    // Use JSON.parse() to convert text to JavaScript object
-    // If we don't use JSON.parse(), the string be [Object Object]
     var thePlayer = JSON.parse(localStorage.getItem('player'));
     // Checking if data is returned, if not exit out of the function
 
