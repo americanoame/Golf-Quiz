@@ -18,7 +18,7 @@
 
 ###### To run this application, download the GitHub zip file or clone the repository. 
 
-###### You can also play the game by clicking this link: 
+###### You can also play the game by clicking this link: https://americanoame.github.io/Golf-Quiz/ 
 
 ## tools used in this game:
 
@@ -28,4 +28,4 @@
 
 #### https://www.w3schools.com/
 
-![ ](img/main-photo.png
+![ ](img/https://americanoame.github.io/Golf-Quiz/)
