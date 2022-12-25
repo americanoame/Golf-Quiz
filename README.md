@@ -1,4 +1,13 @@
+## Golfer Quiz App
 
+### Description
+
+##### It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing In this projects, was built a golf quiz app. i made this game to be more execessible and user friendly. this game was maade as a part of the Rutger coding bootcamp Homework.
+ 
+#### Photo  
+
+(![Screenshot 2022-12-18 at 2 30 55 AM](https://user-images.githubusercontent.com/77306236/209463958-cfbfa5a0-434b-4ca3-a330-54cb26c65b6e.png)
+  
  ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#usage)
@@ -8,71 +17,45 @@
 * [Contact](#contact)
 
 ## 🛠 Installation
-  ${data.Installation}
 
+## Tools used in this game
 
-  ## usage
-  ${data.Usage}
+###### HTML5 CSS JAVASCRIPT
+ 
+#### N/A
  
 ## ⚖️ License
   
-[MIT License](https://opensource.org/Licenses/MIT)
-
-## Contribution
+No License 
 
 ## Test
-${data.test}
 
-## npm i
-${data.npm}
+N/A
 
-## Questions 
-##### Contact me at: Andrenation@gmail.com
+## Usage
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Golfer Quiz app
-
-## Summary
-
-###### In this projects, was built a golf quiz app. i made this game to be more execessible and user friendly.
-###### this game was maade as a part of the Rutger coding bootcamp Homework.
-
-
-## How to play the game 
-
-###### Try to answer the following golf question within the me limit. 
-###### keep in mind that incorrect answer will penalize your score time.
-###### Use the mouse to click on the letters.
-
-
-## Installation
-
-###### To run this application, download the GitHub zip file or clone the repository. 
-
-###### You can also play the game by clicking this link: https://americanoame.github.io/Golf-Quiz/ 
-
-## tools used in this game:
-
-###### HTML5 CSS JAVASCRIPT
+###### You can also play the game by clicking this link: https://americanoame.github.io/Golf-Quiz/
 
 ## Resources
 
-#### https://www.w3schools.com/
+#### https://www.w3schools.com
 
-(![Screenshot 2022-12-18 at 2 30 55 AM](https://user-images.githubusercontent.com/77306236/209463958-cfbfa5a0-434b-4ca3-a330-54cb26c65b6e.png)
+#### https://developer.mozilla.org/en-US/
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
