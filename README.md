@@ -1,4 +1,49 @@
 
+ ## Table of Contents
+* [Installation](#Installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Contact](#contact)
+
+## 🛠 Installation
+  ${data.Installation}
+
+
+  ## usage
+  ${data.Usage}
+ 
+## ⚖️ License
+  
+[MIT License](https://opensource.org/Licenses/MIT)
+
+## Contribution
+
+## Test
+${data.test}
+
+## npm i
+${data.npm}
+
+## Questions 
+##### Contact me at: Andrenation@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Golfer Quiz app
 
 ## Summary
@@ -9,9 +54,9 @@
 
 ## How to play the game 
 
-###### Try to aanswer the following golf question within the me limit. 
+###### Try to answer the following golf question within the me limit. 
 ###### keep in mind that incorrect answer will penalize your score time.
-###### Use the corser to click on the letters.
+###### Use the mouse to click on the letters.
 
 
 ## Installation
@@ -22,12 +67,12 @@
 
 ## tools used in this game:
 
-###### HTML5, CSS AND JAVASCRIPT
+###### HTML5 CSS JAVASCRIPT
 
 ## Resources
 
 #### https://www.w3schools.com/
 
-![Screenshot 2022-12-18 at 2 30 55 AM](https://user-images.githubusercontent.com/77306236/209463958-cfbfa5a0-434b-4ca3-a330-54cb26c65b6e.png
+(![Screenshot 2022-12-18 at 2 30 55 AM](https://user-images.githubusercontent.com/77306236/209463958-cfbfa5a0-434b-4ca3-a330-54cb26c65b6e.png)
 
 
