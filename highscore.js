@@ -1,8 +1,10 @@
 var saveBtn = document.querySelector('#save-btn');
 
+// array to hold the user and score
 var user = '';
 var score = '';
 
+// function to save
 function getWins() {
     var storedWins = localStorage.getItem('score');
     var scoreDisplay = document.getElementById('scoreDisplay');
@@ -10,27 +12,28 @@ function getWins() {
 }
 // Make a function for localStorage so users can save their score
 function saveScore() {
-    // update user and score variables to be the input with id "name" and the score comes from the localStorage score
+
     user = document.getElementById('name');
-    score = localStorage.getItem('score');
-    // making a variable that is an object containing the user and the score with the values
+    score = localStorage.getItem('score');  
     var player = {
-        // user.value refers to the input's value
+
         user: user.value,
         score: score
     };
-    // Use .setItem() to store object in storage and JSON.stringify to convert it as a string
+    // .setItem() to store object in storage and JSON.stringify to convert it as a string
     localStorage.setItem('player', JSON.stringify(player));
 }
 // then i made another fuction to render 
+// Checking if data is returned, if not exit out of the function
+
 function renderScore() {
     var thePlayer = JSON.parse(localStorage.getItem('player'));
-    // Checking if data is returned, if not exit out of the function
-
+    
     // Making sure the player exists and is not null
+    // then we are getting the id 'saved-name' and 'saved-score' from html 
+    // and setting the text of the tags to be the localStorage player user and score
     if (thePlayer !== null) {
-        // Here we are getting the id 'saved-name' and 'saved-score' from html 
-        // and setting the text of the tags to be the localStorage player user and score
+        
         document.getElementById('saved-name').innerText = thePlayer.user;
         document.getElementById('saved-score').innerText = thePlayer.score;
     } else {
@@ -38,7 +41,7 @@ function renderScore() {
     }
 }
 
-// btnScore.addEventListener('click' ADD SAVE SCORE FUNCTION)
+// btnScore.addEventListener('click' add save score function)
 saveBtn.addEventListener('click', function (event) {
     event.preventDefault();
     saveScore();
