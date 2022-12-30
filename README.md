@@ -7,7 +7,7 @@ on any devices.
  
 #### Photo  
 
-(![Screenshot 2022-12-18 at 2 30 55 AM](https://user-images.githubusercontent.com/77306236/209463958-cfbfa5a0-434b-4ca3-a330-54cb26c65b6e.png)
+![Screenshot 2022-12-18 at 2 30 55 AM](https://user-images.githubusercontent.com/77306236/209463958-cfbfa5a0-434b-4ca3-a330-54cb26c65b6e.png)
   
  ## Table of Contents
 * [Installation](#Installation)
