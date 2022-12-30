@@ -1,31 +1,59 @@
+## Golfer Quiz App
 
-# Golfer Quiz app
+### Description
 
-## Summary
+#####  In this projects, was built a golf quiz app. Easy an execessible user friendly game. User can play this game 
+on any devices.
+ 
+#### Photo  
 
-###### In this projects, was built a golf quiz app. i made this game to be more execessible and user friendly.
-###### this game was maade as a part of the Rutger coding bootcamp Homework.
+![Screenshot 2022-12-18 at 2 30 55 AM](https://user-images.githubusercontent.com/77306236/209463958-cfbfa5a0-434b-4ca3-a330-54cb26c65b6e.png)
+  
+ ## Table of Contents
+* [Installation](#Installation)
+* [Usage](#usage)
+* [License](#license)
+* [Tests](#tests)
+* [Contact](#contact)
 
+## 🛠 Installation
 
-## How to play the game 
+## Tools used in this game
 
-###### Try to aanswer the following golf question within the me limit. 
-###### keep in mind that incorrect answer will penalize your score time.
-###### Use the corser to click on the letters.
+###### HTML5 CSS JAVASCRIPT
+ 
+## ⚖️ License
+  
+No License 
 
+## Test
 
-## Installation
+N/A
 
-###### To run this application, download the GitHub zip file or clone the repository. 
+## Usage
 
-###### You can also play the game by clicking this link: 
-
-## tools used in this game:
-
-###### HTML5, CSS AND JAVASCRIPT
+###### You can also play the game by clicking this link: https://americanoame.github.io/Golf-Quiz/
 
 ## Resources
 
-#### https://www.w3schools.com/
+#### https://www.w3schools.com
 
-![ ](img/main-photo.png
+#### https://developer.mozilla.org/en-US/
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
